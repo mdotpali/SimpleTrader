@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimpleTrader.EntityFramework")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b56c8f4a1497011903e5403dfa9516d398cea9e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1451783452aa6aab65a4ed0935901d89975e744f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimpleTrader.EntityFramework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimpleTrader.EntityFramework")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
