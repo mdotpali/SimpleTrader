@@ -1,0 +1,5 @@
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net8.0\SimpleTrader.EntityFramework.csproj.AssemblyReference.cache
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net8.0\SimpleTrader.EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net8.0\SimpleTrader.EntityFramework.AssemblyInfoInputs.cache
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net8.0\SimpleTrader.EntityFramework.AssemblyInfo.cs
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net8.0\SimpleTrader.EntityFramework.csproj.CoreCompileInputs.cache
