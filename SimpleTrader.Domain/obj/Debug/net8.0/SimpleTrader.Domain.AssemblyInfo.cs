@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimpleTrader.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c23c646c764956641930d19268de9e49d0d0dc88")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimpleTrader.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimpleTrader.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

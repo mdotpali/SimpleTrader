@@ -9,3 +9,15 @@ D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\Simp
 D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\refint\SimpleTrader.Domain.dll
 D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\SimpleTrader.Domain.pdb
 D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\ref\SimpleTrader.Domain.dll
+D:\0-Git\SimpleTrader\SimpleTrader.Domain\bin\Debug\net8.0\SimpleTrader.Domain.deps.json
+D:\0-Git\SimpleTrader\SimpleTrader.Domain\bin\Debug\net8.0\SimpleTrader.Domain.dll
+D:\0-Git\SimpleTrader\SimpleTrader.Domain\bin\Debug\net8.0\SimpleTrader.Domain.pdb
+D:\0-Git\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\SimpleTrader.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\0-Git\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\SimpleTrader.Domain.AssemblyInfoInputs.cache
+D:\0-Git\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\SimpleTrader.Domain.AssemblyInfo.cs
+D:\0-Git\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\SimpleTrader.Domain.csproj.CoreCompileInputs.cache
+D:\0-Git\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\SimpleTrader.Domain.sourcelink.json
+D:\0-Git\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\SimpleTrader.Domain.dll
+D:\0-Git\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\refint\SimpleTrader.Domain.dll
+D:\0-Git\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\SimpleTrader.Domain.pdb
+D:\0-Git\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\ref\SimpleTrader.Domain.dll

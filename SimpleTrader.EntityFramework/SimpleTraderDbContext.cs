@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Options;
 using SimpleTrader.Domain.Models;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
@@ -12,6 +13,7 @@ namespace SimpleTrader.EntityFramework
 {
     public class SimpleTraderDbContext : DbContext
     {
+
         public DbSet<User> Users { get; set; }
         public DbSet<Account> Accounts { get; set; }
         public DbSet<AssetTransaction> AssetTransactions { get; set; }
@@ -23,8 +25,8 @@ namespace SimpleTrader.EntityFramework
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string connection = "Server=.\\SQLEXPRESS;Database=SimpleTraderDB;Trusted_Connection=True;";
-            optionsBuilder.UseSqlServer(connection, b => b.MigrationsAssembly("SimpleTrader.Domain"));
+ 
+            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=SimpleTraderDB;Trusted_Connection=True;");
             base.OnConfiguring(optionsBuilder);
         }
     }
