@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
@@ -14,66 +15,69 @@ namespace SimpleTrader.EntityFramework.Migrations
                 name: "Users",
                 columns: table => new
                 {
-                    id = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Username = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Username = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    DatedJoined = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Users", x => x.id);
+                    table.PrimaryKey("PK_Users", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
                 name: "Accounts",
                 columns: table => new
                 {
-                    id = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    AccountHolderid = table.Column<int>(type: "int", nullable: true),
+                    AccountHolderId = table.Column<int>(type: "int", nullable: true),
                     Balance = table.Column<double>(type: "float", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Accounts", x => x.id);
+                    table.PrimaryKey("PK_Accounts", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Accounts_Users_AccountHolderid",
-                        column: x => x.AccountHolderid,
+                        name: "FK_Accounts_Users_AccountHolderId",
+                        column: x => x.AccountHolderId,
                         principalTable: "Users",
-                        principalColumn: "id");
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
                 name: "AssetTransactions",
                 columns: table => new
                 {
-                    id = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Accountid = table.Column<int>(type: "int", nullable: true),
+                    AccountId = table.Column<int>(type: "int", nullable: true),
                     IsPurchase = table.Column<bool>(type: "bit", nullable: false),
                     Stock_Symbol = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Stock_PricePerShare = table.Column<double>(type: "float", nullable: true),
-                    Shares = table.Column<int>(type: "int", nullable: false)
+                    Shares = table.Column<int>(type: "int", nullable: false),
+                    DateProcessed = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_AssetTransactions", x => x.id);
+                    table.PrimaryKey("PK_AssetTransactions", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_AssetTransactions_Accounts_Accountid",
-                        column: x => x.Accountid,
+                        name: "FK_AssetTransactions_Accounts_AccountId",
+                        column: x => x.AccountId,
                         principalTable: "Accounts",
-                        principalColumn: "id");
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Accounts_AccountHolderid",
+                name: "IX_Accounts_AccountHolderId",
                 table: "Accounts",
-                column: "AccountHolderid");
+                column: "AccountHolderId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_AssetTransactions_Accountid",
+                name: "IX_AssetTransactions_AccountId",
                 table: "AssetTransactions",
-                column: "Accountid");
+                column: "AccountId");
         }
 
         /// <inheritdoc />

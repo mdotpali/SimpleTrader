@@ -24,34 +24,34 @@ namespace SimpleTrader.EntityFramework.Migrations
 
             modelBuilder.Entity("SimpleTrader.Domain.Models.Account", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("AccountHolderid")
+                    b.Property<int?>("AccountHolderId")
                         .HasColumnType("int");
 
                     b.Property<double>("Balance")
                         .HasColumnType("float");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
-                    b.HasIndex("AccountHolderid");
+                    b.HasIndex("AccountHolderId");
 
                     b.ToTable("Accounts");
                 });
 
             modelBuilder.Entity("SimpleTrader.Domain.Models.AssetTransaction", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("Accountid")
+                    b.Property<int?>("AccountId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("DateProcessed")
@@ -63,20 +63,20 @@ namespace SimpleTrader.EntityFramework.Migrations
                     b.Property<int>("Shares")
                         .HasColumnType("int");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
-                    b.HasIndex("Accountid");
+                    b.HasIndex("AccountId");
 
                     b.ToTable("AssetTransactions");
                 });
 
             modelBuilder.Entity("SimpleTrader.Domain.Models.User", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("DatedJoined")
                         .HasColumnType("datetime2");
@@ -90,7 +90,7 @@ namespace SimpleTrader.EntityFramework.Migrations
                     b.Property<string>("Username")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.ToTable("Users");
                 });
@@ -99,7 +99,7 @@ namespace SimpleTrader.EntityFramework.Migrations
                 {
                     b.HasOne("SimpleTrader.Domain.Models.User", "AccountHolder")
                         .WithMany()
-                        .HasForeignKey("AccountHolderid");
+                        .HasForeignKey("AccountHolderId");
 
                     b.Navigation("AccountHolder");
                 });
@@ -108,11 +108,11 @@ namespace SimpleTrader.EntityFramework.Migrations
                 {
                     b.HasOne("SimpleTrader.Domain.Models.Account", "Account")
                         .WithMany("AssetTransactions")
-                        .HasForeignKey("Accountid");
+                        .HasForeignKey("AccountId");
 
                     b.OwnsOne("SimpleTrader.Domain.Models.Stock", "Stock", b1 =>
                         {
-                            b1.Property<int>("AssetTransactionid")
+                            b1.Property<int>("AssetTransactionId")
                                 .HasColumnType("int");
 
                             b1.Property<double>("PricePerShare")
@@ -121,12 +121,12 @@ namespace SimpleTrader.EntityFramework.Migrations
                             b1.Property<string>("Symbol")
                                 .HasColumnType("nvarchar(max)");
 
-                            b1.HasKey("AssetTransactionid");
+                            b1.HasKey("AssetTransactionId");
 
                             b1.ToTable("AssetTransactions");
 
                             b1.WithOwner()
-                                .HasForeignKey("AssetTransactionid");
+                                .HasForeignKey("AssetTransactionId");
                         });
 
                     b.Navigation("Account");
