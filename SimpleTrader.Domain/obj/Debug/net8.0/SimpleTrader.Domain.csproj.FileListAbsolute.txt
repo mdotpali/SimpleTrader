@@ -21,3 +21,4 @@ D:\0-Git\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\SimpleTrader.Domain.d
 D:\0-Git\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\refint\SimpleTrader.Domain.dll
 D:\0-Git\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\SimpleTrader.Domain.pdb
 D:\0-Git\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\ref\SimpleTrader.Domain.dll
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.Domain\obj\Debug\net8.0\SimpleTrader.Domain.sourcelink.json

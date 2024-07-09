@@ -21,3 +21,16 @@ D:\0-Git\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net8.0\refint\Simpl
 D:\0-Git\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net8.0\SimpleTrader.EntityFramework.pdb
 D:\0-Git\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net8.0\SimpleTrader.EntityFramework.genruntimeconfig.cache
 D:\0-Git\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net8.0\ref\SimpleTrader.EntityFramework.dll
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\bin\Debug\net8.0\SimpleTrader.EntityFramework.deps.json
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\bin\Debug\net8.0\SimpleTrader.EntityFramework.runtimeconfig.json
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\bin\Debug\net8.0\SimpleTrader.EntityFramework.dll
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\bin\Debug\net8.0\SimpleTrader.EntityFramework.pdb
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\bin\Debug\net8.0\SimpleTrader.Domain.dll
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\bin\Debug\net8.0\SimpleTrader.Domain.pdb
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net8.0\SimpleTrader.EntityFramework.sourcelink.json
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net8.0\SimpleTrader.EntityFramework.csproj.CopyComplete
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net8.0\SimpleTrader.EntityFramework.dll
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net8.0\refint\SimpleTrader.EntityFramework.dll
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net8.0\SimpleTrader.EntityFramework.pdb
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net8.0\SimpleTrader.EntityFramework.genruntimeconfig.cache
+D:\01-Personal\02- Github\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net8.0\ref\SimpleTrader.EntityFramework.dll
