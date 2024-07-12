@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oJIRThcL3B6oySqqB+cnnNLu3Cw0Hq43nmC+SXfPg9+9NjAb0d9iUTjfNmZei7912CSrTdcW7Z/I0M2c09nXKA==",
+  "dgSpecHash": "KQPNxKBWVCA=",
   "success": true,
-  "projectFilePath": "D:\\01-Personal\\02- Github\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\0-Git\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mostafa Palizdar\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

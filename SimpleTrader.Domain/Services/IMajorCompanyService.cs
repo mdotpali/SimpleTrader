@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace SimpleTrader.Domain.Services
 {
-    public interface IMajorIndexService
+    public interface IMajorCompanyService
     {
-        Task<MajorIndex> GetMajorIndex(MajorIndexType indexType);
+        Task<MajorCompanyStock> GetMajorIndex(MajorCompanyName companyName);
     }
 }

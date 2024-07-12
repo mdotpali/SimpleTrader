@@ -14,10 +14,6 @@ namespace SimpleTrader.WPF
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            new MajorIndexService().GetMajorIndex(Domain.Models.MajorIndexType.AAPL).ContinueWith((task) =>
-            {
-                var index = task.Result;
-            });
 
             Window window = new MainWindow();
             window.DataContext = new MainViewModel();

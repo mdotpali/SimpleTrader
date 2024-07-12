@@ -8,5 +8,14 @@ namespace SimpleTrader.WPF.ViewModels
 {
     public class HomeViewModel:ViewModelBase
     {
+
+        public MajorCompanyViewModel MajorCompanyViewModel { get; set; }
+
+        public HomeViewModel(MajorCompanyViewModel majorCompanyViewModel)
+        {
+            MajorCompanyViewModel = majorCompanyViewModel;
+        }
+
+
     }
 }
