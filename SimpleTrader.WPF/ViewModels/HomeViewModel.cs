@@ -9,11 +9,11 @@ namespace SimpleTrader.WPF.ViewModels
     public class HomeViewModel:ViewModelBase
     {
 
-        public MajorCompanyViewModel MajorCompanyViewModel { get; set; }
+        public MajorCompanyListingViewModel MajorCompanyListingViewModel { get; set; }
 
-        public HomeViewModel(MajorCompanyViewModel majorCompanyViewModel)
+        public HomeViewModel(MajorCompanyListingViewModel majorCompanyListingViewModel)
         {
-            MajorCompanyViewModel = majorCompanyViewModel;
+            MajorCompanyListingViewModel = majorCompanyListingViewModel;
         }
 
 
