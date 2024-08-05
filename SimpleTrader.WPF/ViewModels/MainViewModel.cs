@@ -13,6 +13,7 @@ namespace SimpleTrader.WPF.ViewModels
 
         public MainViewModel()
         {
+            //comment for testing git from remote working machine
             Navigator.UpdateCurrentViewModelCommand.Execute(ViewType.Home);
         }
     }
